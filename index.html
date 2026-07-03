@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Everyone ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgMusic" loop>
+    <source src="music/ReelAudio-62757.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" class="music-btn">🎵 Music</button>
+
+<!-- ================= PAGE 1 ================= -->
+ <!-- Floating Balloons -->
+<div class="balloons">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Music Button -->
+<button id="musicBtn" class="music-btn">🎵 Music</button>
+
+<!-- Fireworks Container -->
+<div id="fireworks"></div>
+
+<section class="page active" id="page1">
+
+<div class="container">
+
+<img src="image/1.jpeg" class="profile">
+
+<h1>🎉 Thank You Everyone 🎉</h1>
+
+<h2>My Birthday Was Truly Special ❤️</h2>
+
+<p>
+Because of all your lovely wishes,
+my birthday became one of the happiest
+days of my life.
+</p>
+
+<button onclick="nextPage(2)">Next ➜</button>
+
+</div>
+
+</section>
+
+<!-- ================= PAGE 2 ================= -->
+
+<section class="page" id="page2">
+
+<div class="container">
+
+<h1>❤️ Thank You So Much ❤️</h1>
+
+<p>
+
+Every message...
+Every phone call...
+Every blessing...
+Every smile...
+
+made my birthday unforgettable.
+
+I sincerely appreciate every single one of you.
+
+</p>
+
+<div class="buttons">
+
+<button onclick="prevPage(1)">⬅ Back</button>
+
+<button onclick="nextPage(3)">Next ➜</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PAGE 3 ================= -->
+
+<section class="page" id="page3">
+
+<div class="container">
+
+<h1>📸 Birthday Memories 📸</h1>
+
+<div class="gallery">
+
+<img src="image/2.jpeg">
+
+<img src="image/3.jpeg">
+
+<img src="image/5.jpeg">
+
+<img src="image/6.jpeg">
+
+</div>
+
+<p>
+Every picture reminds me
+how beautiful this birthday was.
+</p>
+
+<div class="buttons">
+
+<button onclick="prevPage(2)">⬅ Back</button>
+
+<button onclick="nextPage(4)">Next ➜</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PAGE 4 ================= -->
+
+<section class="page" id="page4">
+
+<div class="container">
+
+<h1>💖 A Special Message 💖</h1>
+
+<p>
+
+Thank you from the bottom of my heart.
+
+Your love,
+your blessings,
+your prayers,
+and your warm wishes
+
+made my birthday truly unforgettable.
+
+I feel so lucky
+to have amazing people like you
+in my life.
+
+</p>
+
+<div class="buttons">
+
+<button onclick="prevPage(3)">⬅ Back</button>
+
+<button onclick="nextPage(5)">Next ➜</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PAGE 5 ================= -->
+
+<section class="page" id="page5">
+
+<div class="container">
+
+<h1>🎂 Thank You Everyone 🎂</h1>
+
+<h2>Love You All ❤️</h2>
+
+<p>
+
+Your wishes made my day brighter.
+
+Thank you for your kindness,
+love,
+support,
+and blessings.
+
+May God bless you all.
+
+See You Next Birthday 🎉
+
+</p>
+
+<img src="image/4.jpeg" class="profile end-photo">
+
+<div class="buttons">
+
+<button onclick="prevPage(4)">⬅ Back</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
